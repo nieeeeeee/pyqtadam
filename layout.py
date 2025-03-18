@@ -13,6 +13,7 @@ class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
         Dialog.resize(659, 347)
+        Dialog.setStyleSheet("background-color: #B0C4DE")
         self.gridLayoutWidget = QtWidgets.QWidget(parent=Dialog)
         self.gridLayoutWidget.setGeometry(QtCore.QRect(19, 19, 271, 281))
         self.gridLayoutWidget.setObjectName("gridLayoutWidget")
@@ -67,6 +68,7 @@ class Ui_Dialog(object):
         self.checkSpecialCharacters.setObjectName("checkSpecialCharacters")
         self.gridLayout_2.addWidget(self.checkSpecialCharacters, 3, 0, 1, 2)
         self.buttonGenerate = QtWidgets.QPushButton(parent=self.gridLayoutWidget_2)
+        self.buttonGenerate.setStyleSheet("background-color: #4682B4")
         self.buttonGenerate.setObjectName("buttonGenerate")
         self.gridLayout_2.addWidget(self.buttonGenerate, 4, 0, 1, 2)
         self.checkCyfry.raise_()
@@ -77,6 +79,7 @@ class Ui_Dialog(object):
         self.buttonGenerate.raise_()
         self.zatwierdz = QtWidgets.QPushButton(parent=Dialog)
         self.zatwierdz.setGeometry(QtCore.QRect(190, 310, 251, 32))
+        self.zatwierdz.setStyleSheet("background-color: #4682B4")
         self.zatwierdz.setObjectName("zatwierdz")
 
         self.retranslateUi(Dialog)

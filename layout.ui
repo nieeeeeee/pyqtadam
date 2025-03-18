@@ -13,6 +13,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #B0C4DE</string>
+  </property>
   <widget class="QWidget" name="gridLayoutWidget">
    <property name="geometry">
     <rect>
@@ -132,6 +135,9 @@
     </item>
     <item row="4" column="0" colspan="2">
      <widget class="QPushButton" name="buttonGenerate">
+      <property name="styleSheet">
+       <string notr="true">background-color: #4682B4</string>
+      </property>
       <property name="text">
        <string>generuj haslo</string>
       </property>
@@ -153,6 +159,9 @@
      <width>251</width>
      <height>32</height>
     </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: #4682B4</string>
    </property>
    <property name="text">
     <string>zadtwierdz</string>

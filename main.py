@@ -42,7 +42,7 @@ class MyWindow(QDialog):
 
         password = ''.join(password)
 
-        QMessageBox.information(self, "Wygenerowane hasło", f"Twoje hasło: {password}")
+        return password
 
     def zatwierdz(self):
         imie = self.ui.EditImie.text()
