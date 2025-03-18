@@ -26,29 +26,29 @@
     <item row="3" column="0">
      <widget class="QLabel" name="label_4">
       <property name="text">
-       <string>TextLabel</string>
+       <string>stanowisko</string>
       </property>
      </widget>
     </item>
     <item row="1" column="0">
      <widget class="QLabel" name="label_2">
       <property name="text">
-       <string>TextLabel</string>
+       <string>imię</string>
       </property>
      </widget>
     </item>
     <item row="2" column="0">
      <widget class="QLabel" name="label_3">
       <property name="text">
-       <string>TextLabel</string>
+       <string>nazwiso</string>
       </property>
      </widget>
     </item>
     <item row="1" column="1">
-     <widget class="QLineEdit" name="lineEdit"/>
+     <widget class="QLineEdit" name="EditImie"/>
     </item>
     <item row="2" column="1">
-     <widget class="QLineEdit" name="lineEdit_2"/>
+     <widget class="QLineEdit" name="EditNazwisko"/>
     </item>
     <item row="0" column="0" colspan="2">
      <widget class="QLabel" name="label">
@@ -99,38 +99,64 @@
     </rect>
    </property>
    <layout class="QGridLayout" name="gridLayout_2">
-    <item row="2" column="0" colspan="2">
-     <widget class="QCheckBox" name="checkBox">
-      <property name="text">
-       <string>CheckBox</string>
-      </property>
-     </widget>
-    </item>
     <item row="1" column="0" colspan="2">
-     <widget class="QCheckBox" name="checkBox_2">
+     <widget class="QCheckBox" name="checkUperLower">
       <property name="text">
-       <string>CheckBox</string>
+       <string>małe i wielkie litery</string>
       </property>
      </widget>
     </item>
-    <item row="0" column="0">
-     <widget class="QLabel" name="label_5">
+    <item row="2" column="0" colspan="2">
+     <widget class="QCheckBox" name="checkCyfry">
       <property name="text">
-       <string>TextLabel</string>
+       <string>cyfry</string>
       </property>
      </widget>
     </item>
     <item row="0" column="1">
      <widget class="QSpinBox" name="spinBox"/>
     </item>
-    <item row="3" column="0" colspan="2">
-     <widget class="QCheckBox" name="checkBox_3">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_5">
       <property name="text">
-       <string>CheckBox</string>
+       <string>liczba liter</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0" colspan="2">
+     <widget class="QCheckBox" name="checkSpecialCharacters">
+      <property name="text">
+       <string>znaki specjalne</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="2">
+     <widget class="QPushButton" name="buttonGenerate">
+      <property name="text">
+       <string>generuj haslo</string>
       </property>
      </widget>
     </item>
    </layout>
+   <zorder>checkCyfry</zorder>
+   <zorder>label_5</zorder>
+   <zorder>spinBox</zorder>
+   <zorder>checkSpecialCharacters</zorder>
+   <zorder>checkUperLower</zorder>
+   <zorder>buttonGenerate</zorder>
+  </widget>
+  <widget class="QPushButton" name="zatwierdz">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>251</width>
+     <height>32</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>zadtwierdz</string>
+   </property>
   </widget>
  </widget>
  <resources/>
